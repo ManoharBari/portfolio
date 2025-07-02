@@ -77,7 +77,7 @@ const About = () => {
               variants={itemVariants}
             >
               <p className="text-xl leading-relaxed">
-                I am Manohar, a freelance front-end developer & UI designer with
+                I am Manohar, a freelance full-stack developer & UI designer with
                 a passion for building
                 <span className="font-semibold text-gray-900">
                   {" "}
