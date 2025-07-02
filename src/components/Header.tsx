@@ -7,9 +7,9 @@ const Header = () => {
     { name: 'Home', url: '#home', icon: Home },
     { name: 'About', url: '#about', icon: User },
     { name: 'Skills', url: '#skills', icon: Briefcase },
-    { name: 'Projects', url: '#projects', icon: Briefcase },
-    { name: 'Services', url: '#services', icon: FileText },
-    { name: 'Contact', url: '#contact', icon: User }
+    // { name: 'Projects', url: '#projects', icon: Briefcase },
+    // { name: 'Services', url: '#services', icon: FileText },
+    // { name: 'Contact', url: '#contact', icon: User }
   ];
 
   return <NavBar items={navItems} />;
