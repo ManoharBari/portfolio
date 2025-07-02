@@ -105,8 +105,8 @@ function HeroGeometric({
             <div className="absolute inset-0 overflow-hidden">
                 <ElegantShape
                     delay={0.3}
-                    width={600}
-                    height={140}
+                    width={250}
+                    height={100}
                     rotate={12}
                     gradient="from-indigo-500/[0.15]"
                     className="left-[-10%] md:left-[-5%] top-[15%] md:top-[20%]"
