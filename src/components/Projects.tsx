@@ -266,7 +266,7 @@ const Projects = () => {
               contributions
             </motion.p>
             <motion.a
-              href="https://github.com/yourusername"
+              href="https://github.com/manoharbari"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-white text-slate-900 px-8 py-4 rounded-2xl font-semibold hover:bg-gray-100 transition-all duration-300 shadow-lg"
