@@ -13,13 +13,13 @@ const Projects = () => {
         "Google Maps API",
         "MongoDB",
       ],
-      category: "Full Stack",
+      category: "Website",
       color: "from-green-400 to-blue-500",
       image: "/a-z-paint.png",
       liveUrl: "https://www.painttestings.com",
     },
     {
-      title: "Nextdoor Services",
+      title: "Nextdoor - Booking App",
       techStack: [
         "Next.js",
         "JWT Auth",
@@ -41,7 +41,7 @@ const Projects = () => {
       liveUrl: "https://amar-ragda.vercel.app",
     },
     {
-      title: "Tread Letter MVP",
+      title: "Tread Letter - MVP",
       techStack: ["React.js", "Next.js", "Tailwind CSS", "Framer Motion"],
       category: "Full Stack",
       color: "from-orange-400 to-red-500",
@@ -50,19 +50,19 @@ const Projects = () => {
     },
     {
       title: "Road Infrastructure Portal",
-      techStack: ["React.js", "Tailwind CSS", "Framer Motion"],
+      techStack: ["React.js", "Tailwind CSS", "Next.js"],
       category: "UI/UX",
       color: "from-orange-400 to-red-500",
       image: "/ADC.png",
-      liveUrl: "https://amar-ragda.vercel.app",
+      liveUrl: "https://v0-road-infrastructure-dashboard-eta.vercel.app/dashboard",
     },
     {
-      title: "Amar Ragda",
-      techStack: ["React.js", "Tailwind CSS", "Framer Motion"],
-      category: "UI/UX",
+      title: "Chat Bot Integration",
+      techStack: ["React.js", "Tailwind CSS", "Zapier", "API"],
+      category: "AI/ML",
       color: "from-orange-400 to-red-500",
-      image: "/amar-ragda.png",
-      liveUrl: "https://amar-ragda.vercel.app",
+      image: "/chatbot.png",
+      liveUrl: "https://manoharkale.vercel.app",
     },
   ];
 

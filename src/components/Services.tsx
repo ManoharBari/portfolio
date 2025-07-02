@@ -280,13 +280,7 @@ const Services = () => {
               >
                 Schedule a Call
               </motion.button>
-              <motion.button
-                className="border-2 border-white/30 text-white px-8 py-4 rounded-2xl font-semibold hover:bg-white/10 transition-all duration-300 backdrop-blur-sm"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                View Pricing
-              </motion.button>
+             
             </motion.div>
 
             {/* Animated Stats */}
