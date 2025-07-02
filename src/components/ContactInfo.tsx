@@ -42,7 +42,7 @@ const ContactInfo = ({ containerVariants, itemVariants }: ContactInfoProps) => {
             content: (
               <a
                 href="mailto:manoharkale5368@gmail.com"
-                className="text-blue-300 hover:text-blue-200 transition-colors text-lg"
+                className="text-blue-300 hover:text-blue-200 transition-colors"
               >
                 manoharkale5368@gmail.com
               </a>
@@ -53,7 +53,7 @@ const ContactInfo = ({ containerVariants, itemVariants }: ContactInfoProps) => {
             title: "Schedule a Call",
             content: (
               <button
-                className="text-blue-300 hover:text-blue-200 transition-colors text-lg"
+                className="text-blue-300 hover:text-blue-200 transition-colors"
                 onClick={() =>
                   window.open("https://cal.com/manohar-kale/15min", "_blank")
                 }
@@ -71,7 +71,7 @@ const ContactInfo = ({ containerVariants, itemVariants }: ContactInfoProps) => {
             transition={{ duration: 0.2 }}
           >
             <motion.div
-              className="w-16 h-16 bg-white/10 backdrop-blur-sm rounded-2xl flex items-center justify-center border border-white/20"
+              className="w-14 h-14 bg-white/10 backdrop-blur-sm rounded-2xl flex items-center justify-center border border-white/20"
               whileHover={{ rotate: 5, scale: 1.05 }}
               transition={{ duration: 0.2 }}
             >

@@ -29,9 +29,9 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="py-32 overflow-hidden bg-gradient-to-b from-white to-gray-50"
+      className="py-32 bg-gradient-to-b from-white to-gray-50"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           className="text-center mb-20"
           initial="hidden"
@@ -40,7 +40,7 @@ const Contact = () => {
           variants={containerVariants}
         >
           <motion.div
-            className="inline-flex items-center px-4 py-2 rounded-full bg-purple-50 border border-purple-100 mb-6"
+            className="inline-flex  items-center px-4 py-2 rounded-full bg-purple-50 border border-purple-100 mb-6"
             variants={itemVariants}
           >
             <span className="text-purple-600 text-sm font-semibold">
