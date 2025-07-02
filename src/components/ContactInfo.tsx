@@ -10,7 +10,7 @@ interface ContactInfoProps {
 const ContactInfo = ({ containerVariants, itemVariants }: ContactInfoProps) => {
   return (
     <motion.div
-      className="bg-gradient-to-br from-slate-900 to-purple-900 rounded-3xl p-10 text-white"
+      className="bg-gradient-to-br from-slate-900 to-purple-900 rounded-3xl p-8 text-white"
       initial={{ opacity: 0, x: 50 }}
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
