@@ -57,6 +57,17 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+
+    <script
+      async
+      type="module"
+      src="https://interfaces.zapier.com/assets/web-components/zapier-interfaces/zapier-interfaces.esm.js"
+    ></script>
+    <zapier-interfaces-chatbot-embed
+      is-popup="true"
+      chatbot-id="cmcj5svgc000eblfw00sws4cj"
+    ></zapier-interfaces-chatbot-embed>
+
     <!-- Cal floating-popup embed code begins -->
     <script type="text/javascript">
       (function (C, A, L) {
@@ -98,7 +109,7 @@
         config: { layout: "month_view", theme: "auto" },
         buttonText: "Let's Talk",
         hideButtonIcon: false,
-        buttonPosition: "bottom-right",
+        buttonPosition: "bottom-left",
         buttonColor: "#8f00ff",
       });
       Cal.ns["15min"]("ui", {
