@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { LucideIcon } from "lucide-react";
+import { Briefcase, BriefcaseBusiness, FileText, Home, LucideIcon, Phone, User } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface NavItem {
@@ -11,15 +11,25 @@ interface NavItem {
   icon: LucideIcon;
 }
 
-interface NavBarProps {
-  items: NavItem[];
-  className?: string;
-}
-
-export function NavBar({ items, className }: NavBarProps) {
-  const [activeTab, setActiveTab] = useState(items[0].name);
+export function NavBar() {
   const [isMobile, setIsMobile] = useState(false);
+  const BigScreenItems = [
+    { name: "Home", url: "#home", icon: Home },
+    { name: "About", url: "#about", icon: User },
+    { name: "Skills", url: "#skills", icon: BriefcaseBusiness },
+    { name: "Projects", url: "#projects", icon: BriefcaseBusiness },
+    { name: "Services", url: "#services", icon: FileText },
+    { name: "Contact", url: "#contact", icon: User },
+  ];
 
+  const SmallScreenItems = [
+    { name: "Home", url: "#home", icon: Home },
+    { name: "About", url: "#about", icon: User },
+     { name: "Services", url: "#services", icon: BriefcaseBusiness },
+    { name: "Contact", url: "#contact", icon: Phone },
+  ];
+
+  const [activeTab, setActiveTab] = useState(BigScreenItems[0].name);
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth < 768);
@@ -37,15 +47,16 @@ export function NavBar({ items, className }: NavBarProps) {
     }
   };
 
+  const currentItems = isMobile ? SmallScreenItems : BigScreenItems;
+
   return (
     <div
       className={cn(
-        "fixed h-fit  sm:top-0 left-1/2 -translate-x-1/2 z-50 mb-6 pt-6",
-        className
+        "fixed h-fit  sm:top-0 left-1/2 -translate-x-1/2 z-50 mb-6 pt-6"
       )}
     >
       <div className="flex items-center gap-3 bg-background/60 border border-border backdrop-blur-lg py-1 px-1 rounded-full shadow-lg">
-        {items.map((item) => {
+        {currentItems.map((item) => {
           const Icon = item.icon;
           const isActive = activeTab === item.name;
 
