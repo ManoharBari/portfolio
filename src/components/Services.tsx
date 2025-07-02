@@ -276,11 +276,12 @@ const Services = () => {
                 className="bg-white text-slate-900 px-8 py-4 rounded-2xl font-semibold hover:bg-gray-100 transition-all duration-300 shadow-lg"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                onClick={() => window.open("https://cal.com/manohar-kale/15min", "_blank")}
+                onClick={() =>
+                  window.open("https://cal.com/manohar-kale/15min", "_blank")
+                }
               >
                 Schedule a Call
               </motion.button>
-             
             </motion.div>
 
             {/* Animated Stats */}
