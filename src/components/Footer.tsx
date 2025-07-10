@@ -52,9 +52,9 @@ const Footer = () => {
               Manohar Kale
             </motion.div>
             <p className="text-white/70 mb-8 max-w-md text-lg leading-relaxed">
-              Full Stack Developer & UI Designer passionate about creating
-              beautiful and functional digital experiences that make a
-              difference.
+              Full Stack Developer & UI Designer who loves crafting digital
+              experiences that feel personal, work beautifully, and help people
+              solve real problems, one clean interface at a time.
             </p>
 
             {/* Animated Social Links */}

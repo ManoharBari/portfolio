@@ -76,21 +76,22 @@ const About = () => {
               className="prose prose-lg text-gray-700"
               variants={itemVariants}
             >
-              <p className="text-xl leading-relaxed">
-                I am Manohar, a freelance full-stack developer & UI designer with
-                a passion for building
-                <span className="font-semibold text-gray-900">
-                  {" "}
-                  beautiful and functional digital experiences
-                </span>
-                . I specialize in creating responsive landing pages, modern
-                dashboards, and scalable UI systems.
+              <p className="text-lg leading-relaxed">
+                Hi, I am Manohar, a freelance full-stack developer and UI
+                designer who believes that great digital experiences don’t just
+                work, they connect.
+                <br />I started coding to solve everyday problems, and over
+                time, it developed into a passion for creating tools that are
+                clean, fast, and user-centric. Whether I'm designing a landing
+                page for a new product, building a dashboard for a growing
+                startup, or developing a scalable UI system for a SaaS
+                application, I approach every project with care, clarity, and a
+                love for detail.
               </p>
               <p className="text-lg leading-relaxed text-gray-600">
-                My goal is to bring ideas to life with clean code and thoughtful
-                design. I work with startups, product teams, and small
-                businesses to create MVPs, dashboards, and landing pages that
-                not only look great but perform exceptionally.
+                I collaborate with founders, product teams, and small businesses
+                to bring ideas to life, blending design and development to turn
+                rough ideas into smooth, scalable MVPs.
               </p>
             </motion.div>
 
