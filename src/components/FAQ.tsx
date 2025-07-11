@@ -36,7 +36,7 @@ const faqData = [
   {
     question: "How do I get started with you?",
     answer:
-      "Simply message me through the contact form or click the WhatsApp button to get in touch. I'll respond within 24 hours with next steps and a free consultation.",
+      "Simply message me through the contact form or click the Let's Connect button to get in touch. I'll respond within 24 hours with next steps and a free consultation.",
   },
   {
     question: "Do you work with international clients?",
