@@ -215,7 +215,7 @@ function HeroGeometric({
               className="px-8 py-4 text-white border-2 border-white/20 rounded-2xl font-semibold text-lg hover:bg-white/5 transition-all duration-300 backdrop-blur-sm"
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1HqfC7z3LQnbivx-Z4m5k9te6yACUNsOk/view?usp=sharing"
+                  "https://drive.google.com/file/d/1CUV9giinaTAu-9klVd5hK9R6cEtpyrfk/view?usp=sharing"
                 )
               }
               whileHover={{ scale: 1.05 }}
