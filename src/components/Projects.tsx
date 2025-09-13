@@ -64,6 +64,30 @@ const Projects = () => {
       image: "/chatbot.png",
       liveUrl: "https://manoharkale.vercel.app",
     },
+    {
+      title: "Cool Expert Pvt Ltd",
+      techStack: ["React.js", "Tailwind CSS", "Google App Script"],
+      category: "Website",
+      color: "from-orange-400 to-red-500",
+      image: "/coolexpert.png",
+      liveUrl: "https://coolexpert.org",
+    },
+    {
+      title: "V and W Financial Services",
+      techStack: ["React.js", "Tailwind CSS", "Google App Script", "EmailJS"],
+      category: "Website",
+      color: "from-orange-400 to-red-500",
+      image: "/vandwfinance.png",
+      liveUrl: "https://www.vandwfinance.com",
+    },
+    {
+      title: "Rally PPC",
+      techStack: ["React.js", "Tailwind CSS", "Cal.com"],
+      category: "Website",
+      color: "from-orange-400 to-red-500",
+      image: "/rallyppc.png",
+      liveUrl: "https://rallyppc.com",
+    },
   ];
 
   const containerVariants = {
