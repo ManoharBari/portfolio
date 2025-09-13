@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
 
 const Projects = () => {
-  
   const projects = [
     {
       title: "A-Z Paint Testing Lab",
