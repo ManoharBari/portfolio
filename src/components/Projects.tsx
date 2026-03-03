@@ -4,7 +4,7 @@ import { ExternalLink } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "A-Z Paint Testing Lab",
+      title: "A-Z Paint Testing Lab - Mumbai",
       techStack: [
         "React.js",
         "Node.js",
@@ -57,15 +57,15 @@ const Projects = () => {
       liveUrl: "https://v0-road-infrastructure-dashboard-eta.vercel.app/dashboard",
     },
     {
-      title: "Chat Bot Integration",
-      techStack: ["React.js", "Tailwind CSS", "Zapier", "API"],
-      category: "AI/ML",
+      title: "Box Busters - Moving Services in Canada",
+      techStack: ["React.js", "Tailwind CSS", "Email Form", "API"],
+      category: "Website",
       color: "from-orange-400 to-red-500",
-      image: "/chatbot.png",
-      liveUrl: "https://manoharkale.vercel.app",
+      image: "/boxbuster.png",
+      liveUrl: "https://boxbusters.ca",
     },
     {
-      title: "Cool Expert Pvt Ltd",
+      title: "Cool Expert Pvt Ltd - Mauritius",
       techStack: ["React.js", "Tailwind CSS", "Google App Script"],
       category: "Website",
       color: "from-orange-400 to-red-500",
@@ -73,7 +73,7 @@ const Projects = () => {
       liveUrl: "https://coolexpert.org",
     },
     {
-      title: "V and W Financial Services",
+      title: "V and W Financial Services - Pune",
       techStack: ["React.js", "Tailwind CSS", "Google App Script", "EmailJS"],
       category: "Website",
       color: "from-orange-400 to-red-500",
@@ -81,7 +81,7 @@ const Projects = () => {
       liveUrl: "https://www.vandwfinance.com",
     },
     {
-      title: "Rally PPC",
+      title: "Rally PPC - Canada",
       techStack: ["React.js", "Tailwind CSS", "Cal.com"],
       category: "Website",
       color: "from-orange-400 to-red-500",
