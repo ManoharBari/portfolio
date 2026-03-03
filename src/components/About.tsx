@@ -157,7 +157,7 @@ const About = () => {
                   </span>
                 </div>
                 <h4 className="text-2xl font-bold mb-2">Education</h4>
-                <p className="text-white/80 text-lg">Master of Application</p>
+                <p className="text-white/80 text-lg">Master of Computer Application</p>
                 <p className="text-white/60">
                   Savitribai Phule Pune University 
                 </p>
